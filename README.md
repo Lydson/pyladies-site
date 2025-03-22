@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# PyLadies Floripa - Website Oficial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
+Este é o site oficial da PyLadies Floripa, um grupo focado em incentivar a participação de mulheres na programação e na comunidade Python. O site foi desenvolvido como parte do nosso Projeto Integrador no Senac.
 
-Currently, two official plugins are available:
+## Objetivo
+Criar um Single Page Application (SPA) responsivo e moderno para a PyLadies Floripa, facilitando o acesso a informações sobre eventos, projetos, membros e formas de participação na comunidade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- **React.js** com Vite para desenvolvimento front-end
+- **Typescript** para estilização
+- **Figma** para prototipação da interface do usuário
+- **GitHub** para controle de versão e colaboração
 
-## Expanding the ESLint configuration
+## Estrutura do Site
+O site segue uma abordagem de **long strip**, onde a navegação ocorre dentro de uma página principal com seções bem definidas:
+- **Hero Section:** Chamada para que novas usuárias se juntem à PyLadies Floripa.
+- **Sobre:** Apresentação da iniciativa e seus objetivos.
+- **Eventos:** Lista de próximos eventos, com modais interativos para mais detalhes.
+- **Projetos:** Informações sobre iniciativas da comunidade, também com modais.
+- **Membros:** Destaca algumas participantes e suas contribuições.
+- **Contato:** Formulário para inscrição e envolvimento na comunidade.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Prototipação no Figma
+O design do site foi criado no Figma e pode ser acessado neste link:
+[**Protótipo no Figma**](https://www.figma.com/design/PZI7I2eIyr81m0OI3Lam5L/GRUPO-2---SITE.-PYLADIES?node-id=63-262&t=61I3y6mtkeAX1czI-1)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<!--
+## Como contribuir
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/Lydson/pyladies-site.git
+   ```
+2. Instale as dependências:
+   ```sh
+   cd pyladies-site
+   npm install
+   ```
+3. Rode o projeto localmente:
+   ```sh
+   npm run dev
+   ```
+4. Para contribuir, crie um branch e faça um pull request!
+-->
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Status do Projeto
+O site está em desenvolvimento e até o momento, o mockup da interface está pronto no Figma. Estamos atualmente na fase de implementação do código com React.js.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Equipe
+Este projeto está sendo desenvolvido por um grupo de seis integrantes do curso de Tecnologia em Sistemas para Internet do Senac, incluindo membros da comunidade PyLadies.
+Cristiane Silva San Miguel
+Lydson Henrique San Miguel Garcia
+Raphael Honorato e Silva
+Thiago de Holanda Silva
+Tiago Tinoco Martins dos Santos
+Nikolas Isler da Costa
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+Siga as PyLadies Floripa e participe da nossa comunidade! 🚀
+
