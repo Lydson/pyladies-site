@@ -48,12 +48,12 @@ O site está em desenvolvimento e até o momento, o mockup da interface está pr
 
 ## Equipe
 Este projeto está sendo desenvolvido por um grupo de seis integrantes do curso de Tecnologia em Sistemas para Internet do Senac, incluindo membros da comunidade PyLadies.
-Cristiane Silva San Miguel
-Lydson Henrique San Miguel Garcia
-Raphael Honorato e Silva
-Thiago de Holanda Silva
-Tiago Tinoco Martins dos Santos
-Nikolas Isler da Costa
+- Cristiane Silva San Miguel
+- Lydson Henrique San Miguel Garcia
+- Raphael Honorato e Silva
+- Thiago de Holanda Silva
+- Tiago Tinoco Martins dos Santos
+- Nikolas Isler da Costa
 
 ---
 Siga as PyLadies Floripa e participe da nossa comunidade! 🚀
