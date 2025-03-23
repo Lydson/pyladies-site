@@ -25,6 +25,9 @@ O site segue uma abordagem de **long strip**, onde a navegação ocorre dentro d
 O design do site foi criado no Figma e pode ser acessado neste link:
 [**Protótipo no Figma**](https://www.figma.com/design/PZI7I2eIyr81m0OI3Lam5L/GRUPO-2---SITE.-PYLADIES?node-id=63-262&t=61I3y6mtkeAX1czI-1)
 
+Abaixo uma imagem de como ficou o protótipo:
+![Página principal da Pyladies Floripa](https://github.com/Lydson/pyladies-site/blob/main/src/assets/SPAPyLadiesFloripa.png?raw=true)
+
 <!--
 ## Como contribuir
 1. Clone o repositório:
